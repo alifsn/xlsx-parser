@@ -1,0 +1,20 @@
+{
+  "name": "xlsx-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "mocha \"*_test.js\" --timeout=5000",
+    "cover": "nyc _mocha \"*_test.js\" --recursive"
+  },
+  "author": "Alif Septian N",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "node-xlsx": "^0.12.1",
+    "nyc": "^13.1.0",
+    "sinon": "^7.1.1",
+    "xlsx": "^0.14.1"
+  }
+}
